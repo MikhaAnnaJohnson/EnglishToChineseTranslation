@@ -26,7 +26,7 @@
     <script>
         document.getElementById('translateBtn').addEventListener('click', async () => {
             const text = document.getElementById('inputText').value;
-            const response = await fetch('http://localhost:2510/translateTxt', {
+            const response = await fetch('http://localhost:2510/translate', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ text }),

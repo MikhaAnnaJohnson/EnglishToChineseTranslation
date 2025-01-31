@@ -1,4 +1,4 @@
-English to Chinese Translation Project
+# English to Chinese Translation Project
 Overview
 
 This project enables the translation of English text into Chinese using a pretrained machine translation model. The model leverages the power of natural language processing (NLP) to convert input text from English to Chinese accurately and efficiently. This is achieved through a user-friendly interface for easy interaction with the translation engine.
@@ -31,6 +31,6 @@ This project processes translation tasks using the CPU by default. The pretraine
 
 Acknowledgments
 
-Hugging Face Transformers
-PyTorch
-MarianMT
+    Hugging Face Transformers
+    PyTorch
+    MarianMT

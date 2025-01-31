@@ -1,4 +1,4 @@
-# English to Chinese Translation Project
+# English to Chinese Translation Using SLM
 
 ![Translation](https://github.com/user-attachments/assets/eb95d7e6-df34-4031-aebb-b0d0e906387e)
 

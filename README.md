@@ -1,4 +1,7 @@
 # English to Chinese Translation Project
+
+![Translation](https://github.com/user-attachments/assets/eb95d7e6-df34-4031-aebb-b0d0e906387e)
+
 Overview
 
 This project enables the translation of English text into Chinese using a pretrained machine translation model. The model leverages the power of natural language processing (NLP) to convert input text from English to Chinese accurately and efficiently. This is achieved through a user-friendly interface for easy interaction with the translation engine.

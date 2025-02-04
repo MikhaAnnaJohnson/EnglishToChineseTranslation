@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        textarea, button {
+            margin-top: 10px;
+            width: 100%;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>English to Chinese Translator</h1>
+    <textarea id="inputText" rows="5" placeholder="Enter English text..."></textarea>
+    <button id="translateBtn">Translate</button>
+    <h2>Translation:</h2>
+    <p id="outputText"></p>
+
+    <script>
+        document.getElementById('translateBtn').addEventListener('click', async () => {
+            const text = document.getElementById('inputText').value;
+            const response = await fetch('http://localhost:2510/translate', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ text }),
+            });
+            const data = await response.json();
+            document.getElementById('outputText').innerText = data.translation;
+        });
+    </script>
+</body>
+</html>

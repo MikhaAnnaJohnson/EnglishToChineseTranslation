@@ -7,7 +7,7 @@ Overview
 This project enables the translation of English text into Chinese using a pretrained machine translation model. The model leverages the power of natural language processing (NLP) to convert input text from English to Chinese accurately and efficiently. This is achieved through a user-friendly interface for easy interaction with the translation engine.
 Features
 
-    English to Chinese Translation: A pretrained model is used for seamless translation.
+    English to Chinese Translation: A pretrained model is used for seamless translation [ Helsinki-NLP/opus-mt-en-zh ]
     Local Processing: The model runs locally on your machine without requiring an internet connection once the model is downloaded.
     Efficient: Optimized for CPU usage, with the possibility of utilizing GPU support for faster translations.
 
